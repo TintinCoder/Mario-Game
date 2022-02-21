@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
     box-sizing: border-box;
 }
 
@@ -9,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
 
 #title {
@@ -29,9 +33,38 @@ img {
 #start {
     margin-left: 20px;
     float: left;
+    margin-top: 10px;
+    width: 40vw;
 }
 
 #status {
     margin-right: 20px;
     float: right;
+    margin-top: 10px;
+    width: 40vw;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.img {
+    display: inline-block;
+    width: 38vw;
+}
+
+.footer{
+    /* position: fixed; */
+    /* bottom: 0px; */
+    /* right: 0px; */
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+.footer-p {
+    padding: 11px;
+    font-weight: bolder;
 }
