@@ -26,11 +26,11 @@
     <h1 class="btn btn-primary" id="title">Mario Game <button class="btn btn-primary" data-toggle="modal"
         data-target="#myModal" id="titlebtn">Instructions</button></h1>
     <img src="./mario.jpg" alt="Mario Image">
-    <button class="btn btn-success" id="start">Start Game</button>
+    <button class="btn btn-success" id="start" onclick="changeStatus();">Start Game</button>
     <button class="btn btn-primary" id="status">Status</button>
     <div id="canvas">
       <canvas class="canvas"></canvas>
-      <div class="game_console"></div>
+      <div id="game_console"></div>
     </div>
 
     <div id="myModal" class="modal fade">
