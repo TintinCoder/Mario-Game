@@ -5,6 +5,12 @@ let noseY = 0;
 
 function preload() {
 	world_start = loadSound("world_start.wav");
+	mario_jump = loadSound("jump.wav")
+	coin_add = loadSound("coin.wav");
+	gameover_voice = loadSound("gameover.wav");
+	dye_voice = loadSound("mariodie.wav");
+	kill = loadSound("kick.wav");
+	
 	setSprites();
 	MarioAnimation();
 }
